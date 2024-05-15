@@ -1,0 +1,44 @@
+body {
+  background-color: #191C40;
+}
+
+#conteiner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 80px;
+  font-family: fantasy;
+  color: #E4E6FF;
+}
+
+section {
+  align-content: top;
+}
+
+#meuConteudo {
+  align-content:center;
+  width: auto;
+}
+#meuConteudo img{
+  width: 700px;
+}
+
+#botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  font-size: 60px;
+  background-color: #7682FF;
+  color: #E4E6FF;
+  border-color: #7682FF;
+  border-radius: 40px;
+  padding: 20px;
+  font-family: fantasy;
+}
